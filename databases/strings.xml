@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimeTrace</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="database_installed">Installed</string>
+    <string name="database_record">Record</string>
+    <string name="table_installed">installed</string>
+    <string name="table_record">record</string>
+
+    <string name="ctrl_bar_monitor_description">switch to monitor page</string>
+    <string name="ctrl_bar_analyze_description">switch to analyze page</string>
+    <string name="ctrl_bar_setting_description">switch to setting page</string>
+
+    <string name="act_detail_title">process details</string>
+    <string name="act_tag_title">set tags</string>
+    <string name="ctrl_bar_tag_ok_description">save changes</string>
+    <string name="ctrl_bar_tag_cancel_description">do not save changes</string>
+    <string name="ctrl_bar_ignore_description">ignore</string>
+
+    <string name="img_welcome_description">welcome picture</string>
+    <string name="act_welcome_title">Welcome\n2\nTimeTrace…</string>
+    <string name="act_welcome_authority">by HappyStudy…</string>
+    <string name="act_welcome_guide">touch to continue</string>
+
+    <string name="state_id">id</string>
+    <string name="state_time">time</string>
+    <string name="state_location">location</string>
+    <string name="state_activity">activity</string>
+
+    <string name="location_info_longitude">longitude</string>
+    <string name="location_info_latitude">latitude</string>
+    <string name="location_info_speed">speed</string>
+
+    <string name="location_tag_classroom">classroom</string>
+    <string name="location_tag_dinning_hall">dinning_hall</string>
+    <string name="location_tag_dorm">dorm</string>
+    <string name="location_tag_home">home</string>
+    <string name="location_tag_lab">lab</string>
+    <string name="location_tag_library">library</string>
+    <string name="location_tag_office">office</string>
+    <string name="location_tag_restaurant">restaurant</string>
+    <string name="location_tag_snack_bar">snack_bar</string>
+    <string name="location_tag_stadium">stadium</string>
+    <string name="location_tag_unknown">unknown</string>
+
+    <string-array name="location_tag_array">
+        <item>@string/location_tag_classroom</item>
+        <item>@string/location_tag_dinning_hall</item>
+        <item>@string/location_tag_dorm</item>
+        <item>@string/location_tag_home</item>
+        <item>@string/location_tag_lab</item>
+        <item>@string/location_tag_library</item>
+        <item>@string/location_tag_office</item>
+        <item>@string/location_tag_restaurant</item>
+        <item>@string/location_tag_snack_bar</item>
+        <item>@string/location_tag_stadium</item>
+        <item>@string/location_tag_unknown</item>
+    </string-array>
+
+    <string name="process_info_app_name">app_name</string>
+    <string name="process_info_tag">tag</string>
+    <string name="process_info_icon">icon</string>
+    <string name="process_info_live_time">live_time</string>
+    <string name="process_info_mem_size">mem_size</string>
+    <string name="process_info_pack_name">pack_name</string>
+    <string name="process_info_pid">pid</string>
+    <string name="process_info_start_time">start_time</string>
+    <string name="process_info_active">active</string>
+    <string name="process_info_active_time">active_time</string>
+    <string name="process_info_alive">alive</string>
+    <string name="process_info_is_user_process">is_user</string>
+    <string name="process_info_date_format">dd, HH:mm:ss</string>
+
+    <string name="process_tag_beautification">beautification</string>
+    <string name="process_tag_business">business</string>
+    <string name="process_tag_communication">communication</string>
+    <string name="process_tag_education">education</string>
+    <string name="process_tag_finance">finance</string>
+    <string name="process_tag_game">game</string>
+    <string name="process_tag_lifestyle">lifestyle</string>
+    <string name="process_tag_media">media</string>
+    <string name="process_tag_news_information">news_information</string>
+    <string name="process_tag_online_shopping">online_shopping</string>
+    <string name="process_tag_optimization">optimization</string>
+    <string name="process_tag_reading">reading</string>
+    <string name="process_tag_social_network">social_network</string>
+    <string name="process_tag_system">system</string>
+    <string name="process_tag_tool">tool</string>
+    <string name="process_tag_travel">travel</string>
+    <string name="process_tag_unknown">unknown</string>
+    <string name="process_tag_ignore">ignore</string>
+
+    <string-array name="process_tag_array">
+        <item>@string/process_tag_beautification</item>
+        <item>@string/process_tag_business</item>
+        <item>@string/process_tag_communication</item>
+        <item>@string/process_tag_education</item>
+        <item>@string/process_tag_finance</item>
+        <item>@string/process_tag_game</item>
+        <item>@string/process_tag_ignore</item>
+        <item>@string/process_tag_lifestyle</item>
+        <item>@string/process_tag_media</item>
+        <item>@string/process_tag_news_information</item>
+        <item>@string/process_tag_online_shopping</item>
+        <item>@string/process_tag_optimization</item>
+        <item>@string/process_tag_reading</item>
+        <item>@string/process_tag_social_network</item>
+        <item>@string/process_tag_system</item>
+        <item>@string/process_tag_tool</item>
+        <item>@string/process_tag_travel</item>
+        <item>@string/process_tag_unknown</item>
+    </string-array>
+
+    <string name="chart_interval_title">select chart interval</string>
+    <string name="chart_interval_day">last day</string>
+    <string name="chart_interval_week">last week</string>
+    <string name="chart_interval_month">last month</string>
+    <string name="chart_type_title">select chart type</string>
+    <string name="chart_type_pie">pie chart</string>
+    <string name="chart_type_bar">bar chart</string>
+    <string name="chart_type_line">line chart</string>
+    <string name="chart_ignore_yes">yes</string>
+    <string name="chart_ignore_no">no</string>
+    <string name="chart_ignore_title">ignore system processes</string>
+    <string name="ctrl_bar_share_description">share with friends</string>
+
+    <string name="act_monitor_title">running apps</string>
+
+    <string name="ctrl_bar_contact_description">contact us</string>
+    <string name="copyright_description">Copyright  © 2014 HappyStudy.org All Rights Reserved</string>
+
+    <string name="activity_tag_communication">communication</string>
+    <string name="activity_tag_eat">eat</string>
+    <string name="activity_tag_entertainment">entertainment</string>
+    <string name="activity_tag_game">game</string>
+    <string name="activity_tag_motion">motion</string>
+    <string name="activity_tag_news_information">news_information</string>
+    <string name="activity_tag_sleep">sleep</string>
+    <string name="activity_tag_social_network">social_network</string>
+    <string name="activity_tag_sports">sports</string>
+    <string name="activity_tag_work_study">work_study</string>
+    <string name="activity_tag_unknown">unknown</string>
+
+    <string-array name="activity_tag_array">
+        <item>@string/activity_tag_communication</item>
+        <item>@string/activity_tag_eat</item>
+        <item>@string/activity_tag_entertainment</item>
+        <item>@string/activity_tag_game</item>
+        <item>@string/activity_tag_motion</item>
+        <item>@string/activity_tag_news_information</item>
+        <item>@string/activity_tag_sleep</item>
+        <item>@string/activity_tag_social_network</item>
+        <item>@string/activity_tag_sports</item>
+        <item>@string/activity_tag_work_study</item>
+        <item>@string/activity_tag_unknown</item>
+    </string-array>
+
+</resources>
