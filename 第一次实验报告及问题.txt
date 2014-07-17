@@ -1,0 +1,35 @@
+实验结果：
+共134个安装的app；共2262条记录，时间跨度为1天；
+user_behavior编号说明：0：unknown 1:communication 2:eat 3:game 4:motion 5:news_information 6:sleep 7:socail_network 8:sports 9:work_study 10:entertainment
+count_activity:统计的该活动数；
+real_activity:实际标记的该活动数；
+hit_rate:识别的正确率；
+***************************活动统计*********************************
+user_behavior	count_activity	real_activity	hit_rate
+     0			0   	   950		0.0
+     1			1393	    0		null
+     2			64	   116		0.5517
+     3			0	    0		null
+     4			591	   148		3.9932
+     5			1859	    47		39.5531
+     6			460          1		460.0
+     7			178	     0		null	
+     8			576	     0		null
+     9			752	    911		0.8254
+     10			1285	    89		14.4382
+
+
+结果分析：
+1.因为在installed中给浏览器分类到tool中，另外一般的information类中没有app，所以news_information活动中的统计比预计的多，主要多在其他的tool类app调用；
+2.因为室内GPS无法定位，某些条目保存了历史速度，有时候静止的时候可能会保存刚刚走路的速度，因此统计出的motion比标记多；
+  也有可能是实验者并非把所有的motion都及时标记；
+3.sport数据未出现，无法测试；
+4.因为给定的intertainment分类太广，我包括了lifestyle，media，shopping，reading，travel，所以统计比标记多；
+5.打电话、游戏、社交网络这些类无标记，统计方法也比较直观，就认为hit rate为1；
+6.发现有些被标记为吃饭的条目，速度还是比较大，我认为是记录了历史速度。。
+7.总体来说现在只有吃饭和工作的统计算是正常的。。T T
+
+一些问题的解决想法：
+1.能不能在分类的时候把浏览器类标注成information类；
+2.推出更实用也更系统的标记方法，志愿者的标记可以更准确，也不用太累。（考虑时间轴，每天晚上8点提醒标记）
+3.室内GPS的问题我们要怎么解决；
